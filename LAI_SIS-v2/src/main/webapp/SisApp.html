@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="StyleSheet"
+	href="res/mc.css" type="text/css" title="cse4413" media="screen, print"
+	/>
+	<script type="text/javascript" src="scripts/mc.js">;</script>
+	<meta charset="UTF-8">
+	<title>Student Information System</title>
+</head>
+<body>
+	<header>
+		<h1>Student Information System</h1>
+	</header>
+	<nav>
+		<a href="">Home</a>   
+		<a href="">About</a>  
+	</nav>
+	<section></section>
+	<fieldset>
+		<legend>SIS-v2</legend>
+			<form action="Sis" method="POST" class="osapForm">
+				<label for="surname">Surname Prefix <BR/></label>
+				<input type="text" id="surname" name="surname"></input><BR/>
+				<label for="minimumCreditTaken">Minimum Credit Taken </label>
+				<input type="number" step="0.01" id="minimumCreditTaken" name="minimumCreditTaken"></input><BR/>
+				<button value="true" name="ajax" onclick="reportAjax('/LAI_SIS-v2/Sis/Ajax/');return false;">ReportAjax</button> 
+			</form>
+				<div id="result">
+				</div>
+	</fieldset>
+	<article>
+		<img alt="lassonde logo" src="res/lassonde logo.png" width="166" height="22" class="center">
+	</article>
+	<aside>
+		<p>York University</p>
+	</aside>
+	<footer>
+		<p>Copyright Wey Lai- All rights reserved</p>
+	</footer>
+</body>
+</html>
